@@ -1,5 +1,6 @@
 import { useNavigate, useRouteError } from "react-router-dom";
 import LinkButton from "./LinkButton";
+import React from "react";
 
 function Error() {
   const error = useRouteError();
